@@ -7,7 +7,7 @@ var lang
 try {
   lang = JSON.parse(LocalStorage.getItem('vuex')).langchange.lang
 } catch (err) {
-  lang = 'en-US'
+  lang = 'zh-hans'
 }
 
 const i18n = createI18n({
